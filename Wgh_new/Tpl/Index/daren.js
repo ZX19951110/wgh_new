@@ -1,32 +1,32 @@
 var darenList=[
 {
-	"photo":"img/someone.jpeg",
+	"photo":"/123/Wgh_new/Tpl/Index/img/someone.jpeg",
 	"name":"王树根",
 	"school":"2013信软",
 	"job":"现在在那里那里工作"
 },
 {
-	"photo":"img/someone.jpeg",
+	"photo":"/123/Wgh_new/Tpl/Index/img/someone.jpeg",
 	"name":"王树根",
 	"school":"2013信软",
 	"job":"现在在那里那里工作"
 },
 {
-	"photo":"img/someone.jpeg",
+	"photo":"/123/Wgh_new/Tpl/Index/img/someone.jpeg",
 	"name":"王树根",
 	"school":"2013信软",
 	"job":"现在在那里那里工作"
 }];
 
-var photoWall=[{"imgs":"img/1.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/2.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-    {"imgs":"img/3.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/4.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/5.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/6.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/7.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/8.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/9.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/10.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/11.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/12.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/13.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/14.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/15.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/16.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
-   {"imgs":"img/17.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/18.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"}
+var photoWall=[{"imgs":"/123/Wgh_new/Tpl/Index/img/1.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"__TMPL__/Index/img/2.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+    {"imgs":"/123/Wgh_new/Tpl/Index/img/3.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"/123/Wgh_new/Tpl/Index/img/4.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/5.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"/123/Wgh_new/Tpl/Index/img/6.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/7.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/8.jpg","/123/Wgh_new/Tpl/Index/imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/9.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/10.jpg","/123/Wgh_new/Tpl/Index/imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/11.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/12.jpg","/123/Wgh_new/Tpl/Index/imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/13.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/14.jpg","/123/Wgh_new/Tpl/Index/imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/15.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/16.jpg","/123/Wgh_new/Tpl/Index/imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},
+   {"imgs":"/123/Wgh_new/Tpl/Index/img/17.jpg","imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"},{"imgs":"img/18.jpg","/123/Wgh_new/Tpl/Index/imgs_date":"2015.10.1","imgs_discrip":"在哪里聚餐"}
 ]
 // 把json字符串转为JS
 // var jsonText_1=JSON.parse(darenList);

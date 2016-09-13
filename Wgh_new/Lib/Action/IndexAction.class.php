@@ -57,9 +57,9 @@ HTML;
                 $mail->SMTPSecure = "ssl";                 // 安全协议，可以注释掉
                 $mail->Host       = 'smtp.QQ.com';      // SMTP 服务器
                 $mail->Port       = 465;                   // SMTP服务器的端口号
-                $mail->Username   = '619186893@qq.com';  // SMTP服务器用户名，PS：我乱打的
-                $mail->Password   = 'azpbmzphbeczbebi';            // SMTP服务器密码
-                $mail->From = '619186893@qq.com';
+                $mail->Username   = 'dormforce@qq.com';  // SMTP服务器用户名
+                $mail->Password   = 'ualqybfjbbnhdccb';            // SMTP服务器密码
+                $mail->From = 'dormforce@qq.com';
                 $mail->isHTML(true);
                 $mail->addAddress($email,'HHH');
                 $mail->Subject=$name."欢迎加入电子科技大学沙河校区网络管理委员会";
