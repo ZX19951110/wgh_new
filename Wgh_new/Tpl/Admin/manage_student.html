@@ -1,0 +1,81 @@
+<html>
+<script language="JavaScript">
+    function delete_student(name) {
+        var xmlhttp=null;
+        var url="__APP__/Admin/manage_student?name="+name;
+        if(window.XMLHttpRequest){
+           xmlhttp=new XMLHttpRequest();
+        }
+        else if(window.ActiveXObject)
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+        function change_status() {
+        }
+            alert('学生'+name+'已删除');
+            xmlhttp.open('GET',url,true);
+			xmlhttp.onreadystatechange=change_status;
+            xmlhttp.send(null);
+        location.reload();
+    }
+</script>
+<body>
+<div>
+    <table><tr>
+        <th>姓名   </th>
+        <th>学院   </th>
+        <th>专业   </th>
+        <th>学号   </th>
+        <th>性别   </th>
+        <th>意愿   </th>
+        <th>电话   </th>
+        <th>邮箱   </th>
+        <th>知识了解   </th>
+        <th>相关经历   </th>
+        <th>自我评价   </th>
+    </tr>
+
+        <volist id="stu" name="stu">
+            <tr>
+            <td>
+            <p>{$stu.name}</p>
+            </td>
+            <td>
+                <p>{$stu.department}</p>
+            </td>
+                <td>
+                    <p>{$stu.major}</p>
+                </td>
+                <td>
+                    <p>{$stu.stuNumber}</p>
+                </td>
+                <td>
+                    <p>{$stu.sex}</p>
+                </td>
+                <td>
+                    <p>{$stu.position}</p>
+                </td>
+                <td>
+                    <p>{$stu.phone}</p>
+                </td>
+                <td>
+                    <p>{$stu.email}</p>
+                </td>
+                <td>
+                    <p>{$stu.knowledge}</p>
+                </td>
+                <td>
+                    <p>{$stu.experience}</p>
+                </td>
+                <td>
+                    <p>{$stu.intro}</p>
+                </td>
+                <td>
+                <a id="{$stu.name}" onclick="delete_student(this.id)">删除学生</a>
+                </td>
+            </tr>
+    </volist>
+    </table>
+</div>
+</body>
+</html>

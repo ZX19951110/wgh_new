@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电子科技大学网络管理委员会</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+    <div class="wrap">
+    	<div class="header">
+    		<span class="small_logo"></span>
+    		<span class="feedback"><a href= "">反馈</a></span>
+            <div class="directory">
+                <ul class="dir">
+                    <li>
+                        <a href="#" onmouseover="on_hover_dir(1)" onmouseout="on_out_dir(1)" onclick="on_click_dir(1)">
+                            <img id= "dir_img_1"src="img/logo_about_us.png"  class="img_highlight">
+                            <p class="p_logo_name">关于我们</p>
+                            <p class="p_logo_intro1">About us</p>
+                        </a>
+                        <div  id = "dir_under_1" class="under_bar">
+                            <img src="img/logo_bar_under.png">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"class = "li_bg_bar" onmouseover="on_hover_dir(2)" onmouseout="on_out_dir(2)"onclick="on_click_dir(2)">
+                            <img id= "dir_img_2" src="img/logo_department.png" class="img_highlight">
+                            <p class="p_logo_name">部门管理</p>
+                            <p class="p_logo_intro2">Department</p>
+                            <p class="p_logo_intro2">Management</p>
+                        </a>
+                        <div id = "dir_under_2" class="under_bar">
+                            <img src="img/logo_bar_under.png">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"class = "li_bg_bar" onmouseover="on_hover_dir(3)" onmouseout="on_out_dir(3)"onclick="on_click_dir(3)">
+                            <img id= "dir_img_3" src="img/logo_expert.png" class="img_highlight">
+                            <p class="p_logo_name">牛人介绍</p>
+                            <p class="p_logo_intro2">Master</p>
+                            <p class="p_logo_intro2">Introduction</p>
+
+                        </a>
+                        <div  id = "dir_under_3" class="under_bar">
+                            <img src="img/logo_bar_under.png">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"class = "li_bg_bar" onmouseover="on_hover_dir(4)" onmouseout="on_out_dir(4)"onclick="on_click_dir(4)">
+                            <img id= "dir_img_4" src="img/logo_heart.png" class="img_highlight">
+                            <p class="p_logo_name">照片墙</p>
+                            <p class="p_logo_intro1">Photo wall</p>
+                        </a>
+                        <div id = "dir_under_4" class="under_bar">
+                            <img src="img/logo_bar_under.png">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"class = "li_bg_bar" onmouseover="on_hover_dir(5)" onmouseout="on_out_dir(5)"onclick="on_click_dir(5)">
+                            <img id= "dir_img_5" src="img/logo_mail.png" class="img_highlight">
+                            <p class="p_logo_name">报名加入</p>
+                            <p class="p_logo_intro1">Join us</p>
+                        </a>
+                        <div  id = "dir_under_5" class="under_bar">
+                            <img src="img/logo_bar_under.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about_us">
+        </div>
+
+        <div class="dept_man">
+            <img class="dm_p1" src="" />
+            <div class="dm_p2">
+                <div class="dept_intro">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="daren_photo">
+          <p></p>
+
+          <ul class="daren_list"></ul>
+
+          <div class="photo_wall">
+          </div>
+        </div>
+
+        <div class="join_us" id="join">
+            <div class="join_logo_yellow">
+                <p id="welcome_p1">welcome join us</p>
+                <p id="welcome_p2">--------------报名表 </p>
+            </div>
+            <div class="join_table_bg">
+            </div>
+            <div class="join_table_wrap">
+                <form method="post" action="form.php">
+                    <table class="join_table" cellspacing="0">    
+                        <tr class="join_table_tr">
+                            <td class="join_td">
+                                 <p>&nbsp姓&nbsp&nbsp&nbsp名&nbsp&nbsp</p>
+                            </td>
+                            <td class="join_td">
+                                 <input type="text" name="name" class="join_input_content"></input>
+                            </td>
+                            <td class="join_td">
+                                <p>&nbsp学&nbsp&nbsp&nbsp院&nbsp&nbsp</p>
+                            </td>
+                            <td class="join_td">
+                                <input type="text"name="department" class="join_input_content"></input>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td">
+                                  <p>&nbsp专&nbsp&nbsp&nbsp业&nbsp&nbsp</p>
+                            </td>
+                            <td class="join_td">
+                                 <input type="text" name="major" class="join_input_content"></input>
+                            </td>
+                             <td class="join_td">
+                                 <p>&nbsp学&nbsp&nbsp&nbsp号&nbsp&nbsp</p>
+                             </td>
+                             <td class="join_td">
+                                 <input type="text" name="stuNumber" class="join_input_content"></input>
+                             </td>
+                        </tr> 
+                        <tr class="join_table_tr">
+                            <td class="join_td">
+                                <p>&nbspE-mail</p>
+                            </td>
+                            <td class="join_td">
+                                <input type="text" name="email" class="join_input_content"></input>
+                            </td>
+                            <td class="join_td">
+                                <p>&nbsp电&nbsp&nbsp&nbsp话&nbsp&nbsp</p>
+                            </td>
+                            <td class="join_td">
+                                <input type="text" name="phone" class="join_input_content"></input>
+                            </td>
+                        </tr>   
+                        <tr class="join_table_tr">
+                            <td class="join_td">
+                                <p>选择职位</p>
+                            </td>
+                            <td class="join_td">
+                                <input type="text" name="position" class="join_input_content"></input>
+                            </td>
+                            <td class="join_td">
+                                <p>&nbsp性&nbsp&nbsp&nbsp别&nbsp&nbsp</p>
+                            </td>
+                            <td class="join_td">
+                                <input type="text" name="sex" class="join_input_content"></input>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td"style="border-bottom: none;">
+                                <p>知识了解</p>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td" colspan="4" style="border-bottom: none;">
+                                <textarea name="knowledge" class="join_textarea" maxlength="255"></textarea>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td" colspan="4" style="border-bottom: none;">
+                                <p>项目、校内经历</p>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td" colspan="4" style="border-bottom: none;">
+                                <textarea name="experience" class="join_textarea" maxlength="255"></textarea>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td"colspan="4" style="border-bottom: none;">
+                                <p>自我评价、爱好、职业规划</p>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_td" colspan="4" style="border-bottom: none;">
+                                <textarea name="intro" class="join_textarea" maxlength="255"></textarea>
+                            </td>
+                        </tr>
+                        <tr class="join_table_tr">
+                            <td class="join_submit" colspan="4">
+                                <input type="submit" name="send" value="提交" class="join_submit_button"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </form>                   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
